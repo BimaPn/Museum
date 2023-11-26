@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    @apply min-h-[2000px]
+}
+.boxWidth {
+    @apply max-w-[1440px] mx-auto
+}
+.flexCenter{
+  @apply flex justify-center items-center
+}
+.flexBetween{
+  @apply flex justify-between items-center
+}
+.flexColumn{
+  @apply flex flex-col justify-center items-center
+}
