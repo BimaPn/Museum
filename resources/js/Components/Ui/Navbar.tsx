@@ -47,10 +47,7 @@ const Navbar = () => {
             </UnorderedList>
           </Box>
           <Box>
-            <div className="w-fit flexCenter gap-1 text-sm border-2 py-[6px] px-2 rounded-xl">
-               <Icon as={IoTicketOutline} className="text-lg" />
-               Tickets
-            </div>
+            <NavSearch />
           </Box>
         </Flex>
 
