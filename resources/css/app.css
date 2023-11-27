@@ -5,9 +5,7 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-body {
-    @apply min-h-[2000px]
-}
+
 .boxWidth {
     @apply max-w-[1440px] mx-auto
 }
@@ -19,4 +17,8 @@ body {
 }
 .flexColumn{
   @apply flex flex-col justify-center items-center
+}
+
+.shadow-top-bottom {
+  box-shadow:  inset 0 -148px 96px -24px black;
 }

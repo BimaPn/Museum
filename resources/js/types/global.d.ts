@@ -17,3 +17,13 @@ interface HeroSlideProps {
     children : React.ReactNode,
     className ?: string
 }
+
+interface HighlightItem {
+    desktopImg : string,
+    mobileImg : string,
+    category : string,
+    title : string,
+    description : string,
+    link : string,
+    className ?: string
+}
