@@ -5,7 +5,7 @@ import Slider from "./Slider"
 
 const Highlight = () => {
   return (
-  <section className="mt-24">
+  <section>
     <Box className="boxWidth mb-10 px-8">
         <Heading className="text-black text-5xl font-marcellus">HIGHLIGHT</Heading>
     </Box>

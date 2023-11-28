@@ -3,7 +3,7 @@ import { Link } from "@inertiajs/react"
 
 const Collections = () => {
   return (
-    <section className=" py-12 px-8 mt-24 bg-black">
+    <section className=" py-12 px-8 bg-black">
         <Box className="boxWidth mb-14 mt-6">
         <Heading className="font-bold font-marcellus text-5xl text-white">Our Collections</Heading>
         </Box>

@@ -16,7 +16,7 @@ const HeroSlide = ({children,mobileImg,tabletImg,desktopImg,className}:HeroSlide
   bgSize={`cover`}
   bgPos={`center`}
   bgRepeat="no-repeat"
-  className={`w-full sm:aspect-video lg:aspect-[21/9] ${className}`}
+  className={`w-full sm:aspect-video aspect-video xl:aspect-[21/9] ${className}`}
   >
     {children}
   </Box>

@@ -1,14 +1,14 @@
 import Footer from "@/Components/Ui/Footer"
 import Navbar from "@/Components/Ui/Navbar"
 
-const MainLayout = ({children}:{children:React.ReactNode}) => {
+const MainLayout = ({children,className}:{children:React.ReactNode,className?:string}) => {
   return (
   <>
     <header>
         <Navbar/>
     </header>
 
-    <main>
+    <main className={className}>
     {children}
     </main>
 
