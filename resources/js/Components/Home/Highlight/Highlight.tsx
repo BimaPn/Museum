@@ -7,7 +7,7 @@ const Highlight = () => {
   return (
   <section>
     <Box className="boxWidth mb-10 px-8">
-        <Heading className="text-black text-5xl font-marcellus">HIGHLIGHT</Heading>
+        <Heading className="text-black text-5xl font-marcellus">HIGHLIGHTS</Heading>
     </Box>
     <Slider />
   </section>

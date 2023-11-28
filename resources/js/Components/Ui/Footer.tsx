@@ -6,7 +6,7 @@ import { HiMiniBuildingLibrary } from "react-icons/hi2";
 const Footer = () => {
   const socialMedia = ["Instagram","Facebook","Twitter"];
   return (
-    <footer className="bg-black pb-6 pt-10 px-6 mt-12 text-white">
+    <footer className="bg-black pb-8 pt-[72px] px-6 text-white">
     <Box className="boxWidth flex flex-col gap-16">
       <Box className="grid grid-cols-4 mb-12">
         <Box>

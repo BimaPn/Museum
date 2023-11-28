@@ -12,7 +12,7 @@ export default {
   theme: {
     extend: {
         colors : {
-          primary : '#6B8AFD',
+          primary : '#C7DCA7',
           dark : '#3B3B3B',
           semiDark : '#787878',
           netral : '#8C8C8C',

@@ -4,6 +4,7 @@ import MainLayout from "@/Layouts/MainLayout"
 import Collections from "@/Components/Home/Collections"
 import Advertisement1 from "@/Components/Home/Advertisement1"
 import Advertisement2 from "@/Components/Home/Advertisement2"
+import Newsletter from "@/Components/Home/Newsletter"
 const Home = () => {
   return (
   <MainLayout className="flex flex-col gap-24">
@@ -12,10 +13,7 @@ const Home = () => {
     <Collections />
     <Advertisement1 />
     <Advertisement2 />
-
-    <div className="w-full aspect-[3/1] bg-black">
-
-    </div>
+    <Newsletter />
   </MainLayout>
   )
 }
